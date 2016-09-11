@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+ <body>
+    <div class="header">
+        {% include menu.html %}
+    </div>
+    <div class="picture-block">
+    </div>
+    <div class="creativity">
+    	<img src="/images/logo2.svg" >
+    </div>
+    <div class="welcome-block" id="welcome">
+    	<div class="welcome-text">
+    		<h2>Приветствую!</h2>
+    		<p>Меня зовут <em>Анастасия.</em> Я иллюстратор, художник и дизайнер.<br/>
+				По вопросам сотрудничества обращайтесь на <a href="mailto:anastas.86@list.ru">anastas.86@list.ru</a> <br/>
+				или заполните форму обратной связи.</p>
+    	</div>
+    	<div class="welcome-text">
+	    	<h2>Hello!</h2>
+	    	<p>My name is <em>Anastasia</em>. I'm an illustrator, artist and designer.<br/>
+			For cooperation, please write <a href="mailto:anastas.86@list.ru">anastas.86@list.ru</a> or fill in the feedback form.<br/>
+			</p>
+    	</div>
+    </div>
+    <div class="works" id="works">
+        {% include works.html %}
+    </div>
+    {% include photoswipe.html %}
+    <div class="contacts" id="contacts">
+    <div class="contacts-content">
+        <h1>Contact me</h1>
+        <h2>anastas.86@list.ru</h2>
+
+        <form action="http://mailthis.to/r@kamenskiy.net" method="post">
+          <div>
+            <input type="text" class="form-control" name="name" placeholder="Name" />
+          </div>
+          <div>
+            <input type="email" class="form-control" name="_replyto" placeholder="Email" />
+          </div>
+          <div>
+            <textarea cols="40" class="form-control" rows="8" name="Message" placeholder="Message"></textarea>
+          </div>
+          
+          <div>
+            <input type="submit" class="form-control btn-send" value="SEND" />
+          </div>
+        </form>
+    </div>
+    </div>
+    <div class="footer">
+    <div class="footer-content">
+        <span>2016 Anastasiya Art. All rights reserved</span>
+    </div>
+    </div>
+
+    <script type="text/javascript">
+    showImage = function(imagePath){
+        var gallery = blueimp.Gallery([
+            imagePath
+        ]);
+    }
+
+    $(function() {
+      $('a[href*="#"]:not([href="#"])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {
+            $('html, body').animate({
+              scrollTop: target.offset().top
+            }, 1000);
+            return false;
+          }
+        }
+      });
+    });
+    </script>
+
+
+</body>
+</html>
