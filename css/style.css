@@ -86,12 +86,12 @@
 	margin-top: 50px;
 }
 .work-content a{
-	color: 7C69C6D;
+	color: #9F76A9;
 	font-size: 18px;
 	font-family: 'Verdana';
 	cursor: pointer;
-	font-weight: bold;
-	letter-spacing: 0.5px;
+	font-weight: regular;
+	letter-spacing: 0px;
 }
 .contacts{
 	border-top: 2px solid rgb(204, 204, 204);
