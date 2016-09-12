@@ -1,5 +1,5 @@
 ---
-title: КАЛЕНДАРЬ НА СЕНТЯБРЬ 2016 ДЛЯ ЖУРНАЛА SMASHINGMAGAZINE / SEPTEMBER 2016 CALENDAR FOR SMASHINGMAGAZINE
+title: Календарь на Сентябрь 2016 для журнала SMASHINGMAGAZINE / September 2016 Calendar for SMASHINGMAGAZINE
 image_path: /images/wallpaper.jpg
 column: 1
 ---

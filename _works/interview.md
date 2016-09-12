@@ -1,5 +1,5 @@
 ---
-title: ВАЖНОЕ СОБЕСЕДОВАНИЕ/ IMPORTANT INTERVIEW
+title: Важное собеседование/ Important interview
 image_path: /images/interview.png
-column: 1
+column: 3
 ---
